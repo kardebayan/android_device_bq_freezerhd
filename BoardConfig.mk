@@ -178,6 +178,11 @@ MALLOC_SVELTE := true
 # Recovery.fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /vendor/lib/libMtkOmxVenc.so|libshims_omx.so \
+    /vendor/lib/libMtkOmxVdecEx.so|libshims_omx.so
+
 # Treble
 BOARD_VNDK_VERSION := current
 PRODUCT_FULL_TREBLE_OVERRIDE := true

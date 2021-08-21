@@ -235,6 +235,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsensorndkbridge
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshims_omx
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
