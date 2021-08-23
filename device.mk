@@ -237,7 +237,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshims_omx
+    libshims_omx \
+    libshims_libshowlogo
 
 # Thermal
 PRODUCT_PACKAGES += \
